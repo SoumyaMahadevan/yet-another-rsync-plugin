@@ -1,0 +1,19 @@
+// Place your settings in the file "User/YetAnotherRsyncPlugin.sublime-settings", which
+// overrides the settings in here.
+{
+	// Specify the remote server for rsync
+	"yarp_remote_server": "remote-server",
+	// All directories in the remote path are prefixed with this path
+	"yarp_remote_prefix": "/home/smahadev/src",
+	// All directories in the local path are prefixed with this path
+	"yarp_local_prefix": "/Users/smahadev/Documents/Dev/synced_dir",
+	// Exclude file path
+	"yarp_exclude_file_path": "/Users/smahadev/exclude-list.txt",
+	// Dictionary containing remote directory names
+	// These are mirrored in the local directory names
+	"yarp_remote_dirs": {
+							"dir1": true,
+							"dir2": true,
+							"dir3": true
+						}
+}

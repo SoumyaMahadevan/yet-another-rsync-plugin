@@ -1,0 +1,6 @@
+[
+  {
+    "command": "rsync_down",
+    "keys": ["ctrl+d", "ctrl+d"]
+  }
+]
